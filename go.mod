@@ -1,6 +1,6 @@
 module github.com/evmos/evmos/v12
 
-go 1.20
+go 1.22
 
 require (
 	cosmossdk.io/errors v1.0.0-beta.7
@@ -45,7 +45,7 @@ require (
 	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f
 	google.golang.org/grpc v1.54.0
 	google.golang.org/protobuf v1.30.0
-	sigs.k8s.io/yaml v1.3.0
+	sigs.k8s.io/yaml v1.6.0
 )
 
 require (
@@ -200,6 +200,7 @@ require (
 	github.com/zondax/hid v0.9.1 // indirect
 	github.com/zondax/ledger-go v0.14.1 // indirect
 	go.etcd.io/bbolt v1.3.6 // indirect
+	go.yaml.in/yaml/v2 v2.4.2 // indirect
 	golang.org/x/crypto v0.5.0 // indirect
 	golang.org/x/mod v0.9.0 // indirect
 	golang.org/x/oauth2 v0.4.0 // indirect
